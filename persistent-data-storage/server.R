@@ -1,5 +1,6 @@
 library(shiny)
 library(magrittr)
+# requires library DT
 
 source("storage.R")
 source("helpers.R")
