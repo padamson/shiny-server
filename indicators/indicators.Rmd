@@ -95,8 +95,8 @@ rise in spending could help revive the economy and lift the stock market.
 
 ```{r CCI, eval=TRUE, echo=FALSE}
 cciURL <- "http://www.sca.isr.umich.edu/files/tbmics.csv"
-download.file(cciURL,"./data/tbmics.csv")
-tbmics <- read.csv("./data/tbmics.csv")
+download.file(cciURL,"/var/shiny-server/indicators/data/tbmics.csv")
+tbmics <- read.csv("/var/shiny-server/indicators/data/tbmics.csv")
 tbmics$date <- as.Date(
   as.character(paste0(
     str_pad(match(tbmics$Month,month.name),width = 2,side = "left",pad = "0"),
