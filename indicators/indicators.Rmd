@@ -7,7 +7,7 @@ output: html_document
 ---
 
 ```{r setup, echo=FALSE}
-setwd('~/blogs/shiny-server/indicators')
+setwd('/srv/shiny-server/indicators')
 require(quantmod)
 require(stringr)
 options("getSymbols.warning4.0"=FALSE)
