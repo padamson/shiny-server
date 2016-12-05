@@ -1,4 +1,4 @@
-setwd('~/analytics/consulting/usaf/stratvis/inst/example/')
+setwd('/srv/shiny-server/stratvis/')
 #setwd('C:\\workspace\\stratvis\\inst\\example')
 
 # Simple timeline with 4 items
